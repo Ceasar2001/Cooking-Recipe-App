@@ -40,7 +40,7 @@ const SignUpScreen = () => {
   };
 
   if(pendingVerification) return(
-    <VerifyEmail email={email} onBack={(setPendingVerification(false))}/>
+    <VerifyEmail email={email} onBack={() => setPendingVerification(false)} />
   )
 
   return (
