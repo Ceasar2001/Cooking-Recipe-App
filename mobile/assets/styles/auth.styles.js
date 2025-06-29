@@ -90,4 +90,14 @@ export const authStyles = StyleSheet.create({
     color: COLORS.primary,
     fontWeight: "600",
   },
+  footer: {
+    paddingVertical: 20,
+    borderTopWidth: 1,
+    borderColor: COLORS.border,
+    alignItems: "center",
+  },
+  footerText: {
+    fontSize: 14,
+    color: COLORS.textLight,
+  },
 });

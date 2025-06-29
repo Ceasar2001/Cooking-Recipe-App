@@ -68,6 +68,7 @@ const SignInScreen = () => {
           </View>
 
           <Text style={authStyles.title}>Welcome Back</Text>
+        
 
 
           {/* FORM CONTAINER */}
@@ -128,6 +129,12 @@ const SignInScreen = () => {
                 Don&apos;t have an account? <Text style={authStyles.link}>Sign Up</Text>
               </Text>
             </TouchableOpacity>
+          </View>
+
+          <View style={authStyles.footer}>
+            <Text style={authStyles.footerText}>
+              ceasardev
+            </Text>
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
